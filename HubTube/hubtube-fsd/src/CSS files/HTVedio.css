@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.block41{
+    display: flex;
+    background-color: rgb(42, 12, 12)
+}
+.img15{
+    width:12%;
+    height: 40px;
+    margin-top: 0.5%;
+    margin-left:1.2%;
+    margin-right:7.5%;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+.logoutlog{
+    margin-top:0.8%;
+    margin-left: 70%;
+    height:3%;
+    width:3%;
+    &:hover{
+        transform: scale(1.2);
+    }
+}

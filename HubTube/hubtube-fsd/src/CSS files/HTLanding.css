@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+.fullpage1{
+    background-image: url('../images/htbg1.jpg'); /* Set the background image */
+    background-size: cover; /* Adjust this property based on your image size */
+    background-position: center; 
+    height: 100%; /* Set the height to cover the entire viewport */
+    width: 100%;
+    position: fixed;
+}
+.img1{
+    width:16%;
+    height:8.7%;
+    margin-left:3%;
+    margin-top:1.5%;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.block1{
+    display: flex;
+}
+.signinbtn{
+    font-size: 100%;
+ position: relative;
+margin: auto;
+color: white;
+cursor: pointer;
+ margin-left:65%;
+ border-radius:5%;
+ padding: 0.8em 1.5em 0.8em 1.5em;
+ border: none;
+ background: red;
+ transition: all 0.1s linear;
+ box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+}
+.signinbtn:hover{
+    background-color: blue;
+    color: white;
+    transform:scale(1.1);
+}
+.block2{
+    margin-top:11.4%;
+    color:white;
+}
+.block2 h1{
+    font-family: monospace;
+ font-size:500%;
+     text-align: center;
+    margin-bottom:1.3%;
+    border:100% blue solid;
+}
+.block2 h3{
+    font-family: Georgia;
+    font-size:150%;
+    text-align: center;
+    letter-spacing:1%;
+        margin-bottom:1.3%;
+}
+.block2 h2{
+    font-family:sans-serif;
+    font-size:220%;
+        margin-bottom:1.3%;
+        text-align: center;
+}
+
+.block2 h1:hover,
+.block2 h2:hover {
+    transition: transform 0.3s ease;
+    color: lightgreen;
+}
+.block2 h3:hover{
+    transition: transform 0.3s ease;
+    color: orange;
+}
+#fh:hover {
+    transform: scale(1.1);
+}
+
+.getstartbtn{
+    display: block; /* Make the button a block element */
+  margin: 0 auto; 
+    padding: 1.2% 2.4%;
+    padding-right:3.5%; 
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 120%;
+    position: relative;
+}
+.getstartbtn::after {
+    content: '\003E'; /* Unicode arrow character code */
+    font-size: 150%; /* Increased arrow size */
+    position: absolute;
+    margin-left:2.5%;
+  padding-right: 15%;
+    top: 53%;
+    transform: translateY(-50%);
+  }
+  .getstartbtn:hover{
+    transform: scale(1.2);
+    background-color:blue;
+    color: white;
+  }

@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+.fullpage3{
+    background-image: url('../images/htbg1.jpg'); /* Set the background image */
+    background-size: cover; /* Adjust this property based on your image size */
+    background-position: center; 
+    height: 100%; /* Set the height to cover the entire viewport */
+    width: 100%;
+    position: fixed;
+}
+.img1{
+    width:16%;
+    height:8.7%;
+    margin-left:3%;
+    margin-top:1.5%;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.block21{
+    display: flex;
+}
+.signinbtn{
+    font-size: 100%;
+ position: relative;
+margin: auto;
+color: white;
+ margin-left:65%;
+ border-radius:5%;
+ padding: 0.8em 1.5em 0.8em 1.5em;
+ border: none;
+ background: red;
+ transition: all 0.1s linear;
+ box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+}
+.signinbtn:hover{
+    background-color: blue;
+    color: white;
+    transform:scale(1.1);
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+
+}
+.block22 h1{
+    margin-top: 3.5%;
+    margin-bottom: 15%;
+    font-size:260%;
+    color: white;
+    font-family: monospace;
+}
+.signin input {
+    background-color: rgba(0, 0, 0, 0.8); /* Set the background color with transparency */
+    margin-bottom: 12%;
+    outline: none; /* Remove the default outline */
+    width: 80%;
+    padding: 2.8%;
+    border: none; /* Remove the default border */
+    border-radius:1.5%; /* Add border radius for styling */
+}.homebtn{
+    display: flex;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom:5.0%;
+}
+.homebtn button{
+    margin-left: 5%;
+    padding: 1.5%;
+    color: whitesmoke;
+    background: orangered;
+}
+.homebtn button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+.signin input:hover {
+       transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.9); /* Darken the background color on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Add a subtle box shadow on hover */
+}
+
+
+.signininbox {
+    color: whitesmoke; /* Set the text color for the Date of Birth input */
+}
+
+.block22{
+    width: 20%;
+    padding:2% 2%; 
+    border-radius:2.0%;
+    border:1px black solid;
+    height: 45%;
+    margin-left: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 5.5%;
+}
+.block22:hover {
+    transform: scale(1.1);
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.8); /* Darken the background color on hover */
+}
+.regbtn{
+    color: white;
+    border: 1% blue solid;
+    border-radius: 2%;
+    background-color: red;
+    cursor: pointer;
+width: 70%;
+margin-top:2%;
+font-size:150%;
+padding:2.5%;
+margin-left: 15%;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+.regbtn:hover { 
+    background-color: blue; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.1);
+}

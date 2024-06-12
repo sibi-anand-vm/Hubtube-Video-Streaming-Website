@@ -1,0 +1,197 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.fullpage2 {
+    background-image: url('../images/htbg1.jpg'); /* Set the background image */
+    background-size: cover; /* Adjust this property based on your image size */
+    background-position: center; 
+    height: 100%; /* Set the height to cover the entire viewport */
+    width: 100%;
+    position: fixed;
+}
+
+.img1 {
+    width: 16%;
+    height: 8.7%;
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+
+.img1:hover {
+    transform: scale(1.2);
+}
+
+.block11 {
+    display: flex;
+}
+
+.signinbtn {
+    font-size: 100%;
+    position: relative;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    margin-left: 65%;
+    border-radius: 5%;
+    padding: 0.8em 1.5em;
+    border: none;
+    background: red;
+    transition: all 0.1s linear;
+    box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+}
+
+.signinbtn:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.block12 h1 {
+    margin-bottom: 7%;
+    font-size: 260%;
+    color: white;
+    font-family: monospace;
+}
+
+.signup input {
+    background-color: rgba(0, 0, 0, 0.8); /* Set the background color with transparency */
+    margin-bottom: 4%;
+    outline: none; /* Remove the default outline */
+    width: 80%;
+    padding: 2.5%;
+    border: none; /* Remove the default border */
+    border-radius: 1.5%; /* Add border radius for styling */
+}
+
+.signup input:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.9); /* Darken the background color on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Add a subtle box shadow on hover */
+}
+
+.signup input[type="date"]::placeholder {
+    color: lightgrey; /* Set color for placeholder text */
+}
+
+.dobbox {
+    color: grey;
+}
+
+.signup input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.signupinbox {
+    color: whitesmoke; /* Set the text color for the Date of Birth input */
+}
+
+.block12 {
+    width: 20%;
+    padding: 2%; 
+    border-radius: 2.0%;
+    border: 1px black solid;
+    height: 45%;
+    margin-left: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 5.5%;
+}
+
+.block12:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.8); /* Darken the background color on hover */
+}
+
+.regbtn {
+    color: white;
+    border: 1% blue solid;
+    border-radius: 2%;
+    cursor: pointer;
+    background-color: red;
+    width: 70%;
+    margin-top: 5%;
+    font-size: 150%;
+    padding: 2.5%;
+    margin-left: 15%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.regbtn:hover { 
+    background-color: blue; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.1);
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .block12 {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        padding: 5%;
+    }
+
+    .signinbtn {
+        margin-left: 0;
+        margin-top: 10%;
+        width: 80%;
+    }
+
+    .img1 {
+        width: 50%;
+        height: auto;
+        margin: 5% auto;
+        display: block;
+    }
+
+    .signup input {
+        width: 90%;
+    }
+
+    .block12 h1 {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .regbtn {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .block12 {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        padding: 8%;
+    }
+
+    .signinbtn {
+        font-size: 80%;
+        padding: 0.6em 1.2em;
+    }
+
+    .signup input {
+        padding: 2%;
+    }
+
+    .block12 h1 {
+        font-size: 180%;
+    }
+
+    .regbtn {
+        font-size: 120%;
+        padding: 2%;
+    }
+}
